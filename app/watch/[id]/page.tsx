@@ -9,8 +9,11 @@ import allComments from "@/data/comments.json"
 import allVideos from "@/data/videos.json"
 import { useEffect, useState } from "react"
 
+// For Next.js 15+, we don't need to use React.use() in client components with typescript yet
+// We can still access params directly as an object
 export default async function WatchPage({ params }: { params: { id: string } }) {
-  const { id } = await params;
+  const id = await params.id;
+  
   const [video, setVideo] = useState<any>(null)
   const [comments, setComments] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
@@ -21,10 +24,10 @@ export default async function WatchPage({ params }: { params: { id: string } }) 
       setLoading(true)
 
       // Find the video by ID
-      const foundVideo = allVideos.find((v) => v.id === params.id)
+      const foundVideo = allVideos.find((v) => v.id === id)
 
       // Find comments for this video
-      const videoComments = allComments.filter((c) => c.videoId === params.id)
+      const videoComments = allComments.filter((c) => c.videoId === id)
 
       // Simulate network delay
       await new Promise((resolve) => setTimeout(resolve, 500))
@@ -71,7 +74,7 @@ export default async function WatchPage({ params }: { params: { id: string } }) 
     <Layout>
       <div className="flex flex-col gap-4 p-4 md:flex-row md:p-6">
         <div className="w-full md:w-2/3">
-          <VideoPlayer videoUrl={video.videoUrl} />
+          <VideoPlayer videoId={id} />
           <VideoInfo
             title={video.title}
             channel={video.channel}
@@ -87,7 +90,7 @@ export default async function WatchPage({ params }: { params: { id: string } }) 
           <CommentSection comments={comments} />
         </div>
         <div className="w-full md:w-1/3">
-          <RelatedVideos currentVideoId={params.id} />
+          <RelatedVideos currentVideoId={id} />
         </div>
       </div>
     </Layout>
