@@ -1,0 +1,62 @@
+[
+  {
+    "id": "all",
+    "name": "All"
+  },
+  {
+    "id": "music",
+    "name": "Music"
+  },
+  {
+    "id": "gaming",
+    "name": "Gaming"
+  },
+  {
+    "id": "news",
+    "name": "News"
+  },
+  {
+    "id": "movies",
+    "name": "Movies"
+  },
+  {
+    "id": "learning",
+    "name": "Learning"
+  },
+  {
+    "id": "live",
+    "name": "Live"
+  },
+  {
+    "id": "sports",
+    "name": "Sports"
+  },
+  {
+    "id": "fashion",
+    "name": "Fashion"
+  },
+  {
+    "id": "beauty",
+    "name": "Beauty"
+  },
+  {
+    "id": "podcasts",
+    "name": "Podcasts"
+  },
+  {
+    "id": "technology",
+    "name": "Technology"
+  },
+  {
+    "id": "cooking",
+    "name": "Cooking"
+  },
+  {
+    "id": "fitness",
+    "name": "Fitness"
+  },
+  {
+    "id": "comedy",
+    "name": "Comedy"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "avatar": "/placeholder.svg?height=80&width=80",
+    "banner": "/placeholder.svg?height=200&width=1200",
+    "subscribers": "1.2M",
+    "videos": 250,
+    "description": "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.",
+    "joinDate": "Jan 12, 2015",
+    "totalViews": "128.5M",
+    "links": {
+      "website": "https://vercel.com",
+      "twitter": "https://twitter.com/vercel",
+      "github": "https://github.com/vercel"
+    }
+  },
+  {
+    "id": "frontendmasters",
+    "name": "Frontend Masters",
+    "avatar": "/placeholder.svg?height=80&width=80",
+    "banner": "/placeholder.svg?height=200&width=1200",
+    "subscribers": "876K",
+    "videos": 320,
+    "description": "Advanced JavaScript, CSS, and Front-End Engineering Courses. Expert instructors teaching modern skills to help you become a professional web developer.",
+    "joinDate": "Mar 24, 2013",
+    "totalViews": "98.7M",
+    "links": {
+      "website": "https://frontendmasters.com",
+      "twitter": "https://twitter.com/frontendmasters",
+      "github": "https://github.com/FrontendMasters"
+    }
+  },
+  {
+    "id": "reactconf",
+    "name": "React Conf",
+    "avatar": "/placeholder.svg?height=80&width=80",
+    "banner": "/placeholder.svg?height=200&width=1200",
+    "subscribers": "1.5M",
+    "videos": 180,
+    "description": "Official channel for React Conference videos, tutorials, and updates from the React team.",
+    "joinDate": "May 15, 2014",
+    "totalViews": "145.2M",
+    "links": {
+      "website": "https://reactjs.org",
+      "twitter": "https://twitter.com/reactjs",
+      "github": "https://github.com/facebook/react"
+    }
+  },
+  {
+    "id": "typescriptcommunity",
+    "name": "TypeScript Community",
+    "avatar": "/placeholder.svg?height=80&width=80",
+    "banner": "/placeholder.svg?height=200&width=1200",
+    "subscribers": "723K",
+    "videos": 210,
+    "description": "Everything TypeScript! Tutorials, tips, tricks, and best practices for TypeScript developers.",
+    "joinDate": "Aug 3, 2016",
+    "totalViews": "67.8M",
+    "links": {
+      "website": "https://www.typescriptlang.org",
+      "twitter": "https://twitter.com/typescript",
+      "github": "https://github.com/microsoft/TypeScript"
+    }
+  },
+  {
+    "id": "codewithantonio",
+    "name": "Code With Antonio",
+    "avatar": "/placeholder.svg?height=80&width=80",
+    "banner": "/placeholder.svg?height=200&width=1200",
+    "subscribers": "432K",
+    "videos": 150,
+    "description": "Full-stack web development tutorials focusing on React, Next.js, and modern backend technologies.",
+    "joinDate": "Jan 20, 2018",
+    "totalViews": "32.5M",
+    "links": {
+      "website": "https://codewithantonio.com",
+      "twitter": "https://twitter.com/codewithantonio",
+      "github": "https://github.com/antonio"
+    }
+  }
+]

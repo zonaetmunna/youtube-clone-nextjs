@@ -1,0 +1,87 @@
+[
+  {
+    "id": "comment1",
+    "videoId": "1",
+    "user": "WebDevPro",
+    "avatar": "/placeholder.svg?height=32&width=32",
+    "text": "This tutorial really helped me understand the App Router in Next.js 14. Thanks for the clear explanation!",
+    "timestamp": "2 weeks ago",
+    "likes": 245,
+    "replies": [
+      {
+        "id": "reply1",
+        "user": "Vercel",
+        "avatar": "/placeholder.svg?height=32&width=32",
+        "text": "Glad you found it helpful! We have more tutorials coming soon.",
+        "timestamp": "2 weeks ago",
+        "likes": 56
+      },
+      {
+        "id": "reply2",
+        "user": "ReactFan",
+        "avatar": "/placeholder.svg?height=32&width=32",
+        "text": "I agree, this was super clear and easy to follow!",
+        "timestamp": "1 week ago",
+        "likes": 23
+      }
+    ]
+  },
+  {
+    "id": "comment2",
+    "videoId": "1",
+    "user": "CodeNewbie",
+    "avatar": "/placeholder.svg?height=32&width=32",
+    "text": "I'm still confused about the difference between server and client components. Could you explain that a bit more?",
+    "timestamp": "1 week ago",
+    "likes": 87,
+    "replies": [
+      {
+        "id": "reply3",
+        "user": "Vercel",
+        "avatar": "/placeholder.svg?height=32&width=32",
+        "text": "Server Components run on the server and can access server resources directly. Client Components run in the browser and can use hooks and interactivity. Check out our docs for more details!",
+        "timestamp": "6 days ago",
+        "likes": 112
+      }
+    ]
+  },
+  {
+    "id": "comment3",
+    "videoId": "1",
+    "user": "NextJSFan",
+    "avatar": "/placeholder.svg?height=32&width=32",
+    "text": "The performance improvements in Next.js 14 are incredible. My app loads so much faster now!",
+    "timestamp": "5 days ago",
+    "likes": 156,
+    "replies": []
+  },
+  {
+    "id": "comment4",
+    "videoId": "1",
+    "user": "DevOpsGuru",
+    "avatar": "/placeholder.svg?height=32&width=32",
+    "text": "How does this compare to Remix or other frameworks? Would love to see a comparison video.",
+    "timestamp": "3 days ago",
+    "likes": 78,
+    "replies": [
+      {
+        "id": "reply4",
+        "user": "FrameworkExpert",
+        "avatar": "/placeholder.svg?height=32&width=32",
+        "text": "Each has its strengths. Next.js excels at static generation and has great Vercel integration, while Remix has a strong focus on web fundamentals and nested routing.",
+        "timestamp": "2 days ago",
+        "likes": 45
+      }
+    ]
+  },
+  {
+    "id": "comment5",
+    "videoId": "1",
+    "user": "CSSWizard",
+    "avatar": "/placeholder.svg?height=32&width=32",
+    "text": "Great content as always! Would love to see more about styling in Next.js, especially with the new app directory structure.",
+    "timestamp": "1 day ago",
+    "likes": 34,
+    "replies": []
+  }
+]
