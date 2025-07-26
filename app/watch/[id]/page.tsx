@@ -7,18 +7,21 @@ import VideoInfo from "@/components/video-info"
 import VideoPlayer from "@/components/video-player"
 import allComments from "@/data/comments.json"
 import allVideos from "@/data/videos.json"
+import { useParams } from "next/navigation"
 import { useEffect, useState } from "react"
 
-// For Next.js 15+, we don't need to use React.use() in client components with typescript yet
-// We can still access params directly as an object
-export default async function WatchPage({ params }: { params: { id: string } }) {
-  const id = await params.id;
+// Client Component
+export default function WatchPage() {
+  const params = useParams()
+  const id = params.id as string
   
   const [video, setVideo] = useState<any>(null)
   const [comments, setComments] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    if (!id) return
+    
     // Simulate API fetch with a small delay
     const fetchData = async () => {
       setLoading(true)
@@ -63,7 +66,9 @@ export default async function WatchPage({ params }: { params: { id: string } }) 
         <div className="flex h-[70vh] items-center justify-center">
           <div className="text-center">
             <h2 className="text-2xl font-bold">Video not found</h2>
-            <p className="text-muted-foreground">The video you're looking for doesn't exist or has been removed.</p>
+            <p className="text-muted-foreground">
+              The video you're looking for doesn't exist or has been removed.
+            </p>
           </div>
         </div>
       </Layout>

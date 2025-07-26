@@ -6,7 +6,7 @@ export default function RelatedVideos({ currentVideoId }: { currentVideoId: stri
   const relatedVideos = videos.filter((video) => video.id !== currentVideoId).slice(0, 5)
 
   return (
-    <>
+    <div className="flex flex-col gap-2">
       {relatedVideos.map((video) => (
         <VideoCard
           key={video.id}
@@ -21,6 +21,6 @@ export default function RelatedVideos({ currentVideoId }: { currentVideoId: stri
           layout="compact"
         />
       ))}
-    </>
+    </div>
   )
 }
